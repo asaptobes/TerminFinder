@@ -2,6 +2,11 @@
 
 This is an automated tool to help expats find elusive residence permit appointments at the Stuttgart Ausländerbehörde. 
 
+## Requirements
+You must have Python installed. Then, install the required libraries:
+`pip install playwright python-telegram-bot`
+`playwright install`
+
 ## How it works
 This script continuously checks the Konsentas portal every 60 seconds. When an appointment drops, it bypasses the menus, sounds an audio alarm, and sends a Telegram notification to your phone so you can claim it before it's gone.
 
